@@ -1,0 +1,427 @@
+.hero {
+  background-image: url(../image/hero_bg.png);
+  height: 100vh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-menu {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+.hero__menu-bar {
+  display: none;
+  background-color: transparent;
+  border: none;
+}
+.hero-list {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.tel {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  color: black;
+}
+.tel:hover {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  color: black;
+  border-bottom: 3px solid #000;
+}
+.hero-item a {
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  color: black;
+}
+.hero-item a:hover {
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  color: black;
+  border-bottom: 3px solid #000;
+}
+.hero-title {
+  max-width: fit-content;
+  margin: 0 auto;
+  margin-top: 200px;
+  font-family: "Rouge Script", cursive;
+  font-size: 250px;
+  font-weight: 400;
+  line-height: 240px;
+}
+.hero-title span {
+  display: block;
+  font-family: "Roboto Condensed";
+  font-size: 56px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 0px;
+  text-align: right;
+}
+
+/* !!!! Section Tail !!!!*/
+.tail {
+  max-width: 1200px;
+}
+
+.title {
+  margin: 0 auto;
+  margin-bottom: 100px;
+  width: 375px;
+  font-family: "Rouge Script", cursive;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 74px;
+  color: #e2ab3f;
+}
+.title span {
+  display: block;
+  text-align: right;
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 28.13px;
+  color: #000000;
+}
+.tail-wrapper {
+  gap: 50px;
+  display: flex;
+}
+.tail-descr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+/*!! SECTION TRIP !!*/
+/*!! SECTION TRIP !!*/
+.trip {
+  display: flex;
+  justify-content: right;
+  gap: 50px;
+  margin-left: auto;
+  width: 1300px;
+  margin-top: 250px;
+}
+
+.trip__subtitle {
+  font-family: " Roboto Condensed";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  color: #000;
+}
+
+.trip__descr {
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28.13px;
+}
+
+.trip__title {
+  width: 295px;
+  margin-right: 100px;
+}
+.trip__title tspan {
+  display: block;
+  text-align: right;
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 28.13px;
+  color: #000000;
+  margin-top: 5px;
+}
+
+.trip__btn {
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28.13px;
+  cursor: pointer;
+  border: 1px solid #e2ab3f;
+  background-color: transparent;
+  color: #000;
+  margin-top: 15px;
+}
+.trip__list {
+  margin-right: 100px;
+}
+
+/*SECTION HOTEL*/
+.hotel {
+  margin-top: 250px;
+  width: 1300px;
+}
+.hotel__title {
+  width: 295px;
+  position: relative;
+  right: 30%;
+}
+.hotel__wrapper {
+  display: flex;
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.hotel__container {
+  margin-left: 100px;
+}
+
+.hotel__list {
+  width: 600px;
+}
+.hotel__item {
+  font-family: Roboto Condensed;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21.09px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.hotel__fotos {
+  margin-top: 100px;
+  gap: 35px;
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* PRICEEE */
+
+/* !! PRICE !! */
+.price__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price__service h3 {
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+}
+
+.price__text {
+  width: 530px;
+  font-family: "Roboto Condensed";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21.09px;
+}
+.price__baloon {
+  position: relative;
+}
+.price__img1 {
+  position: absolute;
+  top: 65%;
+  right: 98%;
+}
+.price__img2 {
+  position: absolute;
+  top: 100%;
+  left: -1%;
+}
+
+/*PRice___DATE*/
+
+.price__date {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+  align-items: center;
+}
+.price__request h3 {
+  display: block;
+}
+.price__request {
+  margin-top: 100px;
+}
+
+.price__subtitle {
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.price__form input {
+  border: 1px solid #e2ab3f;
+  width: 100%;
+  height: 50px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.price__form input::placeholder {
+  font-family: "Roboto Condensed";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21.09px;
+  color: #000;
+}
+.price__btn {
+  cursor: pointer;
+  border: 1px solid #e2ab3f;
+  padding: 15px 25px;
+  display: block;
+  margin: 0% auto;
+  background-color: transparent;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+/*footer*/
+.footer {
+  background-image: url("../image/footer_bg.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  block-size: cover;
+  height: 100vh;
+  max-height: max-content;
+}
+.white__baloon {
+  width: 450px;
+  height: 450px;
+  margin-top: 20px;
+}
+.footter__iter {
+  position: relative;
+}
+
+.white__baloon {
+  width: 430px;
+}
+
+.fotter__contacts {
+  position: absolute;
+  top: 75px;
+  left: 105px;
+}
+.footer__title {
+  font-size: 100px;
+}
+.footer__block a {
+  display: block;
+  margin-top: -80px;
+  padding-bottom: 90px;
+}
+.footer__block a:nth-child(1) img {
+  margin-left: 16px;
+}
+.footer__flex {
+  position: relative;
+  bottom: 70px;
+  left: 55px;
+}
+.footer__son {
+  color: #000;
+  position: relative;
+  bottom: 300px;
+  left: 200px;
+  width: fit-content;
+}
+
+.footer__tel {
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 21.09px;
+  text-align: center;
+  color: #000;
+}
+.footer__gmail {
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 21.09px;
+  text-align: center;
+  color: #000;
+}
+
+@media screen and (max-width: 480px) {
+  .hero-list,
+  .tel {
+    display: none;
+  }
+
+  .hero__menu-bar {
+    display: block;
+    margin-left: auto;
+  }
+  .hero-title {
+    margin-top: 75px;
+    font-size: 107px;
+    line-height: 101px;
+  }
+  .hero-title span {
+    font-size: 29px;
+  }
+  .title {
+    margin-bottom: 40px;
+    max-width: 283px;
+    font-size: 70px;
+    line-height: 51px;
+  }
+
+  .title span {
+    font-size: 18px;
+    line-height: 20.13px;
+  }
+  .tail-wrapper img {
+    display: none;
+  }
+
+  .tail-descr {
+    max-width: 400px;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  .text {
+    font-size: 14px;
+  }
+  .trip {
+    display: block;
+    max-width: 450px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
+
+  .trip__title {
+    max-width: 193px;
+  }
+
+  .trip__slider {
+    display: none;
+  }
+}
